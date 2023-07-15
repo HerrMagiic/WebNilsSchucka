@@ -1,4 +1,4 @@
-import React, { CSSProperties } from "react";
+import React from "react";
 import Image from 'next/image'
 
 export default function Page(props: {img: string, imgbackground: React.CSSProperties, title: string, description: string, link: string})  {
