@@ -11,7 +11,7 @@ export default function Page()  {
         <div className="">
             <Contact
                 img={mail} 
-                imgbackground={{background: "linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);"}}
+                imgbackground={{background: "linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%)"}}
                 title="E-Mail" 
                 description="nils@schucka.de" 
                 link="mailto:nils@schucka.de"
@@ -30,7 +30,7 @@ export default function Page()  {
                 link="https://twitter.com/HerrMagiic"/>
             <Contact 
                 img={instagram} 
-                imgbackground={{background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);"}}
+                imgbackground={{background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%)"}}
                 title="Intagram" 
                 description="My Instagram" 
                 link="https://www.instagram.com/herrmagic"/>
