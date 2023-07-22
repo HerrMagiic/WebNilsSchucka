@@ -9,8 +9,8 @@ import instagram from "./img/instagram.svg";
 
 export default function Page()  {
     return (
-        <div className="mt-40 w-[40%] ml-auto mr-auto">
-            <h1 className="text-4xl font-bold text-center mb-10">Nils Schucka</h1>
+        <div className="m-auto w-[80%] mt-[30%]">
+            <h1 className="text-4xl font-bold text-center mb-10 ">Nils Schucka</h1>
             <Contact
                 img={mail} 
                 imgbackground={{background: "linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%)"}}

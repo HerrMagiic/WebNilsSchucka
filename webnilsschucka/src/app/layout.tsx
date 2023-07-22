@@ -21,7 +21,7 @@ export default function RootLayout({
     return (
         <html lang="en" className='dark'>
             <body className={poppins.className}>
-                <div className="m-auto w-[60%]">
+                <div className="m-auto w-[80%] md:w-[38%]">
                     <div className="container">
                         {children}
                     </div>
