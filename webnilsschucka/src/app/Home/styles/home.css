@@ -1,0 +1,15 @@
+.contact-hovering {
+    /* background: linear-gradient(135deg, #fffffff5, #d401a756); */
+    background: rgba(15, 15, 15, 0.836);
+    transition: background-color 0.8s;
+}
+.contact-hovering:hover, .gradient-hover-effect:focus {
+    background: rgba(0, 149, 236, 0.274);
+    background: linear-gradient(90deg, rgba(0, 149, 236, 0.274), rgba(17, 0, 92, 0.274));
+    transition: 0.8s;
+}
+.contact-header {
+    background: linear-gradient(90deg, rgb(255, 255, 255), #11005a);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+}
