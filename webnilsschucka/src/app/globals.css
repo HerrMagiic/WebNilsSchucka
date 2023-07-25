@@ -16,6 +16,9 @@ html {
 }
 
 body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
     135deg,
